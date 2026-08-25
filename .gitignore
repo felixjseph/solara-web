@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/.vercel/
+/.turbo/
+
+# testing
+/coverage/
+/playwright-report/
+/test-results/
+
+# local environment
+.env*
+!.env.example
+
+# system and editors
+.DS_Store
+*.pem
+*.log
+*.tsbuildinfo
+.idea/
+.vscode/
+
+# package-manager diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
